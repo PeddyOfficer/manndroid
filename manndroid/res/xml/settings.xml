@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<PreferenceCategory android:title="Brukerinnstillinger">
+		<EditTextPreference android:title="Brukernavn"
+			android:key="username" android:summary="Legg inn ditt brukernavn"></EditTextPreference>
+		<EditTextPreference android:title="Passord"
+			android:key="password" android:password="true" android:summary="Legg inn ditt passord"></EditTextPreference>
+		<ListPreference
+            android:title="Kalendertyper"
+            android:summary="Velg hvilke kalendre du vil se"
+            android:key="pref_calendar"
+            android:defaultValue="all"
+            android:entries="@array/pref_list_array"
+            android:entryValues="@array/pref_list_values" />
+        <ListPreference
+            android:title="Cache"
+            android:summary="Hvor lenge skal cachen brukes"
+            android:key="pref_cache"
+            android:defaultValue="never"
+            android:entries="@array/cache_list_array"
+            android:entryValues="@array/cache_list_values" />
+        <ListPreference
+            android:title="Automatisk varsling"
+            android:summary="Hvor ofte skal appen sjekke for endringer"
+            android:key="pref_update"
+            android:defaultValue="never"
+            android:entries="@array/cache_list_array"
+            android:entryValues="@array/cache_list_values" />
+	</PreferenceCategory>
+</PreferenceScreen>

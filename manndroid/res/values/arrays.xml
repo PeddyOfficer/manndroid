@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- Values that are displayed -->
+	<string-array name="pref_list_array">
+		<item>Begge</item>
+		<item>Fotball</item>
+		<item>Poker</item>
+	</string-array>
+	<!-- Values/ids used internally -->
+	<string-array name="pref_list_values">
+		<item>all</item>
+		<item>football</item>
+		<item>poker</item>
+	</string-array>
+	<!-- Values that are displayed -->
+	<string-array name="cache_list_array">
+		<item>Aldri</item>
+		<item>1 time</item>
+		<item>3 timer</item>
+		<item>12 timer</item>
+		<item>24 timer</item>
+	</string-array>
+	<!-- Values/ids used internally -->
+	<string-array name="cache_list_values">
+		<item>never</item>
+		<item>1hr</item>
+		<item>3hr</item>
+		<item>12hr</item>
+		<item>24hr</item>
+	</string-array>
+</resources>

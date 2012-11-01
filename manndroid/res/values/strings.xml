@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="hello">Meny</string>
+<string name="app_name">manndroid</string>
+<string name="settings_header">Innstillinger</string>
+<string name="calendar_header">Kalender</string>
+<string name="button_settings">Innstillinger</string>
+<string name="button_calendar">Kalender</string>
+<string name="toast_settings_intent">Personlige innstillinger</string>
+<string name="toast_calendar_intent">Henter kalender</string>
+<string name="toast_is_online">For å bruke kalenderen må nettverk være aktivert</string>
+<string name="toast_illegal_event">Ikke visningsstøtte for denne type kalenderelement</string>
+<string name="rest_url">http://api.mannsverk.org/rest/calendar/calendar.php/</string>
+<string name="menu_home">Hjem</string>
+<string name="menu_refresh">Oppdater</string>
+<string name="menu_sign_up">Meld på</string>
+<string name="menu_sign_off">Meld av</string>
+<string name="notification_header">Mannsverk oppdatert</string>
+</resources>

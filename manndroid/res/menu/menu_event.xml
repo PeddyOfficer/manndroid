@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:id="@+id/menu_home" android:icon="@drawable/ic_menu_home"
+		android:title="@string/menu_home" />
+	<item android:id="@+id/menu_refresh" android:icon="@drawable/ic_menu_refresh"
+		android:title="@string/menu_refresh" />
+	<group android:id="@+id/menu_group_sign_up">
+		<item android:id="@+id/menu_sign_up" android:icon="@drawable/ic_menu_add"
+			android:title="@string/menu_sign_up" />
+	</group>
+	<group android:id="@+id/menu_group_sign_off">
+		<item android:id="@+id/menu_sign_off" android:icon="@drawable/ic_menu_delete"
+			android:title="@string/menu_sign_off" />
+	</group>
+</menu>
